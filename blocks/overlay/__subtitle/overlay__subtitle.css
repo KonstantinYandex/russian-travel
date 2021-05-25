@@ -1,0 +1,21 @@
+.overlay__subtitle{
+  margin: 0;
+  position: relative;
+  max-width: 360px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-family: "Inter",sans-serif;
+  font-weight: 400;
+
+}
+
+@media screen and (max-width:320px) {
+  .overlay__subtitle{
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 1.07;/*я пытался*/
+
+  }
+}

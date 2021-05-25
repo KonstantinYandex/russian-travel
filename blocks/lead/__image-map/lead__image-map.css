@@ -1,5 +1,6 @@
 .lead__image-map{
   margin-top: 64px;
-  object-fit: contain;
+  object-fit: cover;
+  width: 100%;
 
 }

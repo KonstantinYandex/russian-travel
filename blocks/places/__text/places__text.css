@@ -1,0 +1,9 @@
+.places__text{
+  color: #fff;
+  grid-area: text;
+  max-width: 484px;
+  box-sizing: border-box;
+}
+
+
+

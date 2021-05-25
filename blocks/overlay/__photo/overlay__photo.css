@@ -1,0 +1,38 @@
+.overlay__photo{
+  position: relative;
+  display: flex;/*на вебинаре говорили, что можно раскидать текст padding,но вроде и так не плохо?*/
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../../images/background.png");
+  margin: 0 auto;
+  width: 92.5vw;
+  height: 57.8vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.overlay__photo::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.6;
+  background:#2A2C2F;
+}
+
+.overlay__photo:hover::before{
+  opacity: 0.8;
+}
+
+@media screen and (max-width:1024px) {
+  .overlay__photo{
+    width: 100vw;
+
+  }
+}
+

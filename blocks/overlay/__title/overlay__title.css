@@ -1,0 +1,20 @@
+.overlay__title{
+  margin: 0 0 32px 0;
+  position: relative;
+  text-align: center;
+  max-width: 560px;
+  color: #fff;
+  font-size: 72px;/*почему то только на таком размере он встал как на макете*/
+  line-height: 76px;
+  font-family: "Inter",sans-sefif;
+  font-weight: 900;
+}
+
+@media screen and (max-width:320px) {
+  .overlay__title{
+    max-width: 288px;
+    font-size: 32px;/*тут не получилось поставить как на макете,подскажите )) */
+    line-height: 1.1;
+
+  }
+}
