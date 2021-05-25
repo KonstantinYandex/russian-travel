@@ -4,3 +4,11 @@
   max-width: 484px;
   box-sizing: border-box;
 }
+
+
+@media screen and (max-width:320px){
+
+  .places__text{
+    justify-self: center;
+  }
+}

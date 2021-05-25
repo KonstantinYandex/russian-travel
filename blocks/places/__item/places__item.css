@@ -28,7 +28,6 @@
 
 @media screen and (max-width: 320px) {
   .places__item {
-    justify-items: center;
     grid-template-columns: minmax(310px, 350px);
     grid-template-areas:
       "title"
