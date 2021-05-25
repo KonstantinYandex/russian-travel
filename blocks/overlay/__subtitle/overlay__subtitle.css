@@ -1,4 +1,4 @@
-.overlay__subtitle{
+.overlay__subtitle {
   margin: 0;
   position: relative;
   max-width: 360px;
@@ -6,16 +6,14 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
-
 }
 
-@media screen and (max-width:320px) {
-  .overlay__subtitle{
+@media screen and (max-width: 320px) {
+  .overlay__subtitle {
     max-width: 288px;
     font-size: 14px;
-    line-height: 1.07;/*я пытался*/
-
+    line-height: 1.07; /*я пытался*/
   }
 }

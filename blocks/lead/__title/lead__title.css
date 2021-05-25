@@ -1,24 +1,26 @@
-
-
-.lead__title{
-	margin: 0;
-	color: #fff;
-	font-size: 96px;
-	line-height: 100px;
-	text-align: center;
-	max-width: 690px;/* хоть убей,не получается у меня на 720 px поставить как на макете.а на 690px все норм*/
-	box-sizing: border-box;
-	font-family: "Inter" , sans-serif;
+.lead__title {
+  margin: 0;
+  color: #fff;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  max-width: 690px; /* хоть убей,не получается у меня на 720 px поставить как на макете.а на 690px все норм*/
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
   font-weight: 900;
 }
-
-
-@media screen and (max-width:320px) {
-	.lead__title{
-		max-width: 288px;
-		font-size: 40px;
-		line-height: 1.1;
-	}
+/*вроде как на этом разрешении начинается скролл*/
+@media screen and (max-width: 770px) {
+  .lead__title {
+    font-size: 46px;
+    line-height: 40px;
+  }
 }
 
-
+@media screen and (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

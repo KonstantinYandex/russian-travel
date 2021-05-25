@@ -1,6 +1,6 @@
-.overlay__photo{
+.overlay__photo {
   position: relative;
-  display: flex;/*на вебинаре говорили, что можно раскидать текст padding,но вроде и так не плохо?*/
+  display: flex; /*на вебинаре говорили, что можно раскидать текст padding,но вроде и так не плохо?*/
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 
-.overlay__photo::before{
+.overlay__photo::before {
   position: absolute;
   content: "";
   top: 0;
@@ -22,17 +22,15 @@
   bottom: 0;
   right: 0;
   opacity: 0.6;
-  background:#2A2C2F;
+  background: #2a2c2f;
 }
 
-.overlay__photo:hover::before{
+.overlay__photo:hover::before {
   opacity: 0.8;
 }
 
-@media screen and (max-width:1024px) {
-  .overlay__photo{
-    width: 100vw;
-
+@media screen and (max-width: 1024px) {
+  .overlay__photo {
+    width: 100%;
   }
 }
-

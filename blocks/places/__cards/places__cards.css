@@ -1,29 +1,23 @@
-.places__cards{
+.places__cards {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 984px;
-
 }
 
-@media screen and (max-width:1024px){
-
-  .places__cards{
+@media screen and (max-width: 1024px) {
+  .places__cards {
     max-width: calc(100% - 96px);
   }
-
 }
 
-@media screen  and (max-width:768px){
-  .places__cards{
+@media screen and (max-width: 768px) {
+  .places__cards {
     max-width: calc(100% - 48px);
   }
-
 }
 
-@media screen and (max-width:320px){
-
-  .places__cards{
+@media screen and (max-width: 320px) {
+  .places__cards {
     max-width: 320px;
   }
-
 }

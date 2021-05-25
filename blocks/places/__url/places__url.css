@@ -1,21 +1,14 @@
 .places__url{
+  margin: 0;
+  margin-bottom: 12px;
   color: #fff;
-  font-size: 18px;
-  line-height: 1.1;
+  font-size: 12px;
+  line-height: 20.4px;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
-  text-decoration: none;
+  opacity: 0.5;
   grid-area: url;
-  align-self: end;
+  align-self: center;
+
+
 }
-
-.places__url:hover{
-  text-decoration:underline;
-}
-
-@media screen and (max-width:320px){
-
-  .places__url{
-    max-width: 288px;
-  }
-}
-
