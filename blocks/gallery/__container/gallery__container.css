@@ -22,6 +22,7 @@
     max-width: calc(100% - 48px);
   }
 }
+
 /*
 
 
@@ -40,7 +41,7 @@
   }
 
 }
-/*
+
 @media screen and (max-width:650px){
 
   .gallery__container{
@@ -49,10 +50,12 @@
 
 }
 
-/*
+
 @media screen and (max-width:650px) {
   .gallery__container {
     max-width: calc(100% - 32px);
   }
 }
+
+*/
 
