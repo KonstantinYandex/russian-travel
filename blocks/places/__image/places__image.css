@@ -3,3 +3,11 @@
   width: 100%;
   object-fit: cover;
 }
+
+/*
+@media screen and (max-width:320px){
+
+  .places__image{
+    overflow: hidden ;
+
+}

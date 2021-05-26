@@ -17,12 +17,10 @@
   }
 }
 
-@media screen and (max-width:770px){
-
-  .footer__container{
+@media screen and (max-width: 770px) {
+  .footer__container {
     flex-wrap: wrap;
   }
-
 }
 
 @media screen and (max-width: 320px) {

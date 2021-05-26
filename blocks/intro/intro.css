@@ -10,13 +10,16 @@
   }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+/*в таком диапазоне все остается удобочитаемым. Но самое главное на мой взгляд,то ,как выглядят places . В таком диапазоне текст выходит не слишком далеко вперед*/
+
+@media screen and (max-width: 1023px) and (min-width: 650px) {
   .intro {
     max-width: calc(100% - 48px);
   }
 }
 
-@media screen and (max-width: 320px) {
+/*так же и тут:) */
+@media screen and (max-width: 650px) {
   .intro {
     max-width: calc(100% - 32px);
     margin: 64px auto 0 auto;
