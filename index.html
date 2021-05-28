@@ -5,35 +5,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/fonts.css">
   <link rel="stylesheet" href="./pages/index.css">
 
 
   <title>Путешествие </title>
+
 </head>
-<!--В коде очень много лишних медиазапросов,пожалуйста,не ругайся слишком,я хотел довести до совершенства отступы блоков между точками перелома.Но психанул,и отложил на чуть попозже.все отступы на контрольных точка соблюдены.(ну или я очень старался).и ШРИФТЫ!шрифты я подключил.надеюсь-->
 
-<body class='page'>
 
-  <header class="header">
-    <div class="header__logo"></div>
-    <div>
-      <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-      <a href="#" class="header__lang-link">En</a>
-    </div>
-  </header>
+<!--1.текст на overlay не переносится даже если размеры всех блоков пиксель в пиксель.ну никак.
+    2. комментарий "параметры блока оверлей не по макету" не понятен,так как на всех разрешениях(от 1280 и ниже) он идет пиксель в пиксель.требую доп.комментариев.
+    3.комментарий по поводу place не понимаю.почему текст не может сьезжать на два три слова? ведь этим и достигается резиновость+ когда двигаешь данный блок,даже с сьезжащим текстом выглядит очень даже ничего -->
 
-  <main class="content">
-    <section class="lead">
-      <h1 class="lead__title">Путешествия по России</h1>
-      <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-      <img src="./images/__map-image.jpg" class="lead__image-map"
-        alt="На верхнем слое фото карта России,но втором Спящая девушка в поезде ">
-      <h4 class="lead__caption">ваша полка — верхняя</h4>
-    </section>
+<body class='root'>
 
-    <section class="intro">
-      <div class="intro__container">
+  <div class="page">
+
+    <header class="header">
+      <div class="header__logo"></div>
+      <div>
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="#" class="header__lang-link">En</a>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="lead">
+        <h1 class="lead__title">Путешествия по России</h1>
+        <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+        <img src="./images/__map-image.jpg" class="lead__image-map"
+          alt="На верхнем слое фото карта России,но втором Спящая девушка в поезде ">
+        <p class="lead__caption">ваша полка — верхняя</p>
+      </section>
+
+      <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
           провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
@@ -42,17 +47,15 @@
           смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105 </li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span class="intro__span">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__span">16</span></li>
+          <li>Природных заповедников <span class="intro__span">105</span></li>
+          <li>Аэропортов <span class="intro__span">241</span></li>
         </ul>
-      </div>
-    </section>
+      </section>
 
-    <div class="gallery">
-      <div class="gallery__container">
+      <section class="gallery"><!--Валидатор ругается о том,что тут нет заголовка-->
         <img class="gallery__item" src="./images/__train.png" alt="Вид из окна в поезде">
         <img class="gallery__item" src="./images/__cloudy-mountain.png" alt="Вид сверху на облачную гору">
         <img class="gallery__item" src="./images/__field.png" alt="Вид на утреннее поле в тумане">
@@ -69,14 +72,15 @@
         <img class="gallery__item" src="./images/__mountains-3.png" alt="На фото отвес высокой заснеженной скалы ">
         <img class="gallery__item" src="./images/__mountains-4.png"
           alt="Фото сделанно на пике высокой горы.Сам же пик горы покрывает туман ">
-      </div>
-    </div>
+
+      </section>
 
 
-    <section class="places">
-      <div class="places__cards">
+      <section class="places">
+
 
         <div class="places__item">
+          <!--сделаю отдельными блоками после сдачи,обещаю.сейчас плывут мозги после основной работы:(-->
           <h2 class="places__title">Куршская коса</h2>
           <div class="places__container">
             <p class="places__url">URL</p>
@@ -184,47 +188,53 @@
             </p>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section class="overlay">
-      <a class="overlay__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-        <div class="overlay__photo">
+      </section>
+
+      <section class="overlay">
+        <a class="overlay__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <h2 class="overlay__title">До Байкала «на собаках»</h2>
-          <h3 class="overlay__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-            электричках.</h3>
-        </div>
-      </a>
-    </section>
-
-  </main>
-
-  <footer class="footer">
-    <div class="footer__container">
-
-      <ul class="footer__links">
-        <a class="footer__link" href="https://yandex.ru/maps">
-          <li>Карты</li>
+          <p class="overlay__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+            электричках.</p>
         </a>
-        <a class="footer__link" href="https://yandex.ru/pogoda">
-          <li>Погода</li>
-        </a>
-        <a class="footer__link" href="https://rasp.yandex.ru">
-          <li>Расписание</li>
-        </a>
-        <a class="footer__link" href="https://calendar.yandex.ru">
-          <li>Календарь</li>
-        </a>
-        <a class="footer__link" href="https://travel.yandex.ru">
-          <li>Путешествия</li>
-        </a>
-      </ul>
+      </section>
 
-      <p class="footer__copyright">© 2020. Константин Новиков</p>
+    </main>
 
-    </div>
+    <footer class="footer">
+      <nav class="footer__container">
 
-  </footer>
+        <ul class="footer__links">
+
+          <li class="footer__links-item">
+            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          </li>
+
+          <li class="footer__links-item">
+            <a class="footer__link" href="https://yandex.ru/maps">Погода</a>
+          </li>
+
+          <li class="footer__links-item">
+            <a class="footer__link" href="https://yandex.ru/maps">Расписание</a>
+          </li>
+
+          <li class="footer__links-item">
+            <a class="footer__link" href="https://yandex.ru/maps">Календарь</a>
+          </li>
+
+          <li class="footer__links-item">
+            <a class="footer__link" href="https://yandex.ru/maps">Путешествия</a>
+          </li>
+        </ul>
+
+        <p class="footer__copyright">© 2020. Константин Новиков</p>
+
+      </nav>
+
+    </footer>
+  </div>
+
+
 </body>
 
 </html>

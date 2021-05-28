@@ -3,12 +3,13 @@
   width: 176px;
   height: 52px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 320px) {
   .header__logo {
+    height: 42px;
     width: 146px;
     justify-self: flex-start;
   }

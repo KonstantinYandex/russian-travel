@@ -1,16 +1,11 @@
 .intro__text {
+  max-width: 690px;
   margin: 40px 0 0 0;
   color: #fff;
   font-size: 16px;
-  line-height: 1.7; /*что за мазахист поставил в фигме 26.08? :) */
-  font-family: "Inter Regular", sans-serif;
+  line-height: 26.08px;/*на всех разрешениях по макету такие настройки*/
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 
-@media screen and (max-width: 320px) {
-  .intro__text {
-    font-size: 16px;
-    line-height: 26.08px;
-  }
-}

@@ -11,23 +11,18 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .footer__container {
+    margin-top: 88px;
+    flex-wrap: wrap;
     max-width: calc(100% - 48px);
   }
 }
 
-@media screen and (max-width: 770px) {
-  .footer__container {
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 523px) {
   .footer__container {
     justify-content: flex-start;
     margin: 64px auto 0 16px;
-    display: flex;
     flex-direction: column;
     max-width: 188px;
   }

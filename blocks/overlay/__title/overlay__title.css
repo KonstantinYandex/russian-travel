@@ -6,14 +6,15 @@
   color: #fff;
   font-size: 72px;
   line-height: 76px;
-  font-family: "Inter Black", sans-sefif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 900;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 523px) {
   .overlay__title {
     max-width: 288px;
     font-size: 32px; /*тут не получилось поставить как на макете,подскажите )) */
-    line-height: 1.1;
+    line-height: 35px;
+    margin-bottom: 16px;
   }
 }

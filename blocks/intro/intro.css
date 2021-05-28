@@ -1,24 +1,28 @@
 .intro {
   max-width: 984px;
-  margin: 92px auto 0 auto;
+  margin: 92px auto 0 auto; /*отступ меняется от 768px  и меньше и один раз*/
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width:1024px) {
   .intro {
-    width: calc(100% - 96px);
+    max-width: calc(100% - 96px);
   }
 }
 
-/*в таком диапазоне все остается удобочитаемым. Но самое главное на мой взгляд,то ,как выглядят places . В таком диапазоне текст выходит не слишком далеко вперед*/
 
-@media screen and (max-width: 1023px) and (min-width: 650px) {
-  .intro {
+@media screen and (max-width:768px){
+
+  .intro{
+    margin-top: 88px;
     max-width: calc(100% - 48px);
   }
+
 }
 
-/*так же и тут:) */
+
 @media screen and (max-width: 650px) {
   .intro {
     max-width: calc(100% - 32px);

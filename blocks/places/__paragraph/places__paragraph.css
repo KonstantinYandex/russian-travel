@@ -1,37 +1,31 @@
 .places__paragraph {
   margin: 0;
   font-size: 18px;
-  line-height: 29.34px;
+  line-height: 29.34px;/*тут все норм*/
   text-align: left;
   box-sizing: border-box;
   margin-bottom: 26px;
-  font-family: "Inter Regular", sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
+  text-align: left;
 }
 
 .places__paragraph:last-child {
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width:1024px) {
   .places__paragraph {
-    margin-bottom: 25px;
-    font-size: 16px;
-    line-height: 26.08px;
+    margin-bottom: 27px;/*все как в макете*/
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .places__paragraph {
-    margin-bottom: 25px;
+    margin-bottom: 25px;/*и тут тоже */
     max-width: 288px;
     font-size: 16px;
     line-height: 26.08px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .places__paragraph {
-    font-size: 12px;
-  }
-}

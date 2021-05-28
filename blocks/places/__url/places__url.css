@@ -1,14 +1,12 @@
-.places__url{
+.places__url {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
   margin: 0;
   margin-bottom: 12px;
-  color: #fff;
   font-size: 12px;
-  line-height: 20.4px;
-  font-family: "Inter Regular", sans-serif;
-  font-weight: 400;
-  opacity: 0.5;
-
+  line-height: 12px;
+  color: #aaa;
   align-self: center;
-
-
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
