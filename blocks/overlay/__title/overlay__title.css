@@ -10,10 +10,10 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 523px) {
+@media screen and (max-width: 767px) {
   .overlay__title {
     max-width: 288px;
-    font-size: 32px; /*тут не получилось поставить как на макете,подскажите )) */
+    font-size: 32px;
     line-height: 35px;
     margin-bottom: 16px;
   }

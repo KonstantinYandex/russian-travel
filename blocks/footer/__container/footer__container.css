@@ -22,7 +22,7 @@
 @media screen and (max-width: 523px) {
   .footer__container {
     justify-content: flex-start;
-    margin: 64px auto 0 16px;
+    margin: 64px auto 24px 16px;
     flex-direction: column;
     max-width: 188px;
   }
