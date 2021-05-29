@@ -26,8 +26,9 @@
 
 @media screen and (max-width: 990px) {
   .places__item {
+    margin-bottom: 73px;
     column-gap: 28px;
-    grid-template-columns: minmax(340px, 352px) 1fr;
+    grid-template-columns: minmax(300px, 340px);
     max-width: calc(100% - 48px);
   }
 }

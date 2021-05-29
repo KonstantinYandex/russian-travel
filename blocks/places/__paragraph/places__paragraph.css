@@ -15,16 +15,15 @@
 
 @media screen and (max-width:1024px) {
   .places__paragraph {
-    margin-bottom: 27px;/*все как в макете*/
+    margin-bottom: 27px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 880px) {
   .places__paragraph {
-    margin-bottom: 25px;/*и тут тоже */
-    max-width: 288px;
+    margin-bottom: 25px;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 163%;
   }
 }
 

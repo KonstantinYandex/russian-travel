@@ -15,9 +15,6 @@
   box-sizing: border-box;
 }
 
-
-
-
 .overlay__link::before {
   position: absolute;
   content: "";
@@ -35,8 +32,8 @@
 
 @media screen and (max-width: 1024px) {
   .overlay__link {
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     min-height: 62.5vw;
   }
 }
-
