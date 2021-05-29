@@ -3,9 +3,8 @@
   margin: 40px 0 0 0;
   color: #fff;
   font-size: 16px;
-  line-height: 26.08px;/*на всех разрешениях по макету такие настройки*/
-  font-family: "Inter", sans-serif;
+  line-height: 26px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
-

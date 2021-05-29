@@ -7,13 +7,16 @@
   flex-direction: column;
   background-image: url("../../../images/background.png");
   margin: 0 auto;
-  width: 92.5vw;
-  height: 57.8vw;
+  width: 1184px;
+  min-height: 740px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   box-sizing: border-box;
 }
+
+
+
 
 .overlay__link::before {
   position: absolute;
@@ -33,14 +36,7 @@
 @media screen and (max-width: 1024px) {
   .overlay__link {
     width: 100%;
+    min-height: 62.5vw;
   }
-}
-
-@media screen and (max-width:320px){
-
-  .overlay__link{
-    height: 200px;
-  }
-
 }
 

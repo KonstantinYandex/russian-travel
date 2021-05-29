@@ -1,17 +1,26 @@
 .lead__caption {
+  text-transform: uppercase;
   margin: 0;
-  margin-top: 8px;/*он надо на всех разрешениях*/
+  margin-top: 8px;
   color: #fff;
   align-self: flex-start;
   font-size: 10px;
   line-height: 1.4;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  letter-spacing: 2.303px;/*на всех разрешениях теперь она как на макете*/
+  letter-spacing: 0.15em;
 }
 
 @media screen and (max-width: 768px) {
   .lead__caption {
     margin-left: 24px;
   }
+}
+
+@media screen and (max-width:320px){
+
+  .lead__caption{
+    margin-left: 16px;
+  }
+
 }
