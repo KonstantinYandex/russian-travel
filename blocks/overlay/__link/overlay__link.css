@@ -7,7 +7,7 @@
   flex-direction: column;
   background-image: url("../../../images/background.png");
   margin: 0 auto;
-  width: 1184px;
+  max-width: 1184px;
   min-height: 740px;
   background-size: cover;
   background-position: center;
@@ -32,8 +32,8 @@
 
 @media screen and (max-width: 1024px) {
   .overlay__link {
-    width: 100vw;
     max-width: 100%;
+    width: 100vw;
     min-height: 62.5vw;
   }
 }
