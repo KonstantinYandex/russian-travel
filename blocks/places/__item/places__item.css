@@ -37,7 +37,7 @@
   .places__item {
     row-gap: 32px;
     max-width: calc(100% - 32px);
-    grid-template-columns: minmax(320px, 360px);
+    grid-template-columns: minmax(290px, 360px);
     grid-template-areas:
       "title"
       "url"
