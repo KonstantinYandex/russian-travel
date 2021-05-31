@@ -35,6 +35,7 @@
 
 @media screen and (max-width: 767px) {
   .places__item {
+    justify-content: center;
     row-gap: 32px;
     max-width: calc(100% - 32px);
     grid-template-columns: minmax(280px, 320px);
@@ -51,6 +52,7 @@
 
 @media screen and (max-width: 320px) {
   .places__item {
+    justify-content: stretch;
     margin: 0 0 50px 0;
     grid-template-columns: minmax(320px, 340px);
   }
